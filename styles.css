@@ -1,0 +1,35 @@
+
+body {
+    background-color: #000000; /* Cor de fundo da página */
+    margin: 0; /* Remover margens padrão do corpo da página */
+    font-family: Arial, sans-serif; /* Fonte para o texto */
+    font-size: 12px; /* Tamanho da fonte base */
+    line-height: 1.6; /* Espaçamento entre linhas base */
+}
+    
+    .container {
+        text-align: center;
+        margin-top: 20px; /* Espaço entre a imagem e o texto */
+    }
+    .conteudo-centralizado {
+        text-align: justify; /* Centralizar o texto */
+        padding: 20px; /* Adicionar preenchimento interno */
+        max-width: 800px; /* Largura máxima do conteúdo */
+        margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+        color: #f0f0f0;
+    }
+    
+    /* Estilos para telas menores (exemplo: telas com largura de 768px ou menos) */
+    @media (max-width: 768px) {
+        .conteudo-centralizado {
+            font-size: 14px; /* Reduzir o tamanho da fonte para telas menores */
+        }
+    }
+    
+    /* Estilos para telas muito pequenas (exemplo: telas com largura de 480px ou menos) */
+    @media (max-width: 480px) {
+        .conteudo-centralizado {
+            font-size: 12px; /* Reduzir ainda mais o tamanho da fonte para telas muito pequenas */
+        }
+    }
+    
